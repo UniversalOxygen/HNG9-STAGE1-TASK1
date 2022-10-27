@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;500;600;700&family=Lexend+Deca&family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@400;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@100;400&family=Work+Sans:wght@600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  padding: 30px 70px 0px;
+}
+
+#profile_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 0px;
+}
+
+#shareBtn {
+  margin-bottom: -30px;
+  margin-right: -55%;
+  cursor: pointer;
+}
+
+#menuBtn {
+  display: none;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 2px;
+  color: #101828;
+}
+h2 {
+  display: none;
+}
+
+/* ////////////STYLING OF THE BUTTON /////////// */
+button {
+  font-family: "Inter", sans-serif;
+  color: #101828;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 18px;
+  width: 95%;
+  padding: 18px 0px;
+  border: none;
+  border-radius: 8px;
+  background: #eaecf0;
+  cursor: pointer;
+}
+
+
+/* ////////////HORIZONTAL LINE /////////// */
+hr {
+  margin-top: 50px;
+  border: none;
+  height: 1px;
+  background: #eaecf0;
+  margin-bottom: -5px;
+}
+
+
+/* ////////////FOOTER SECTION/////////// */
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 10px 0px;
+}
+
+#footer #zuriImage {
+  width: 187px;
+  height: 32px;
+  margin-top: 10px;
+}
+#footer #i4gImage {
+  width: 132px;
+  height: 32px;
+  margin-top: 10px;
+}
+
+#footer p {
+  font-weight: 400;
+  color: #667085;
+  font-size: 16px;
+}
+
+
+/* ////////////STYLING FOR TABLET SCREEN /////////// */
+@media (max-width: 768px) {
+  #footer #zuriImage {
+    width: 100px;
+    height: 18px;
+    margin-top: 15px;
+  }
+  #footer #i4gImage {
+    margin-top: 15px;
+    width: 90px;
+    height: 20px;
+  }
+
+  #footer p {
+    font-weight: 400;
+    color: #667085;
+    font-size: 12px;
+  }
+}
+@media (max-width: 555px) {
+  #footer p {
+    max-width: 100px;
+  }
+}
+
+
+
+/* ////////////STYLING FOR MOBILE /////////// */
+@media (max-width: 480px) {
+  body {
+    padding: 20px 25px 0px;
+  }
+
+  #menuCon {
+    display: flex;
+    justify-content:right;
+  }
+
+  #menuBtn {
+    display: block;
+    margin-bottom: -30px;
+    cursor: pointer;
+  }
+
+
+  #shareBtn {
+    display: none;
+  }
+
+
+  h1 {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+
+  #footer {
+    display: none;
+  }
+
+  #social {
+    display: none;
+  }
+
+ div #book__design {
+    margin-bottom: -30px;
+  }
+}
