@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/https//univesaloxygen.github.io/HNG9-STAGE1-TASK1/static/css/main.fd839478.css",
-    "main.js": "/https//univesaloxygen.github.io/HNG9-STAGE1-TASK1/static/js/main.35fdeda5.js",
-    "static/js/787.1aa80b0a.chunk.js": "/https//univesaloxygen.github.io/HNG9-STAGE1-TASK1/static/js/787.1aa80b0a.chunk.js",
-    "static/media/myProfile.png": "/https//univesaloxygen.github.io/HNG9-STAGE1-TASK1/static/media/myProfile.c678ae8224dc09663e46.png",
-    "index.html": "/https//univesaloxygen.github.io/HNG9-STAGE1-TASK1/index.html",
-    "main.fd839478.css.map": "/https//univesaloxygen.github.io/HNG9-STAGE1-TASK1/static/css/main.fd839478.css.map",
-    "main.35fdeda5.js.map": "/https//univesaloxygen.github.io/HNG9-STAGE1-TASK1/static/js/main.35fdeda5.js.map",
-    "787.1aa80b0a.chunk.js.map": "/https//univesaloxygen.github.io/HNG9-STAGE1-TASK1/static/js/787.1aa80b0a.chunk.js.map"
+    "main.css": "/HNG9-STAGE1-TASK1/static/css/main.fd839478.css",
+    "main.js": "/HNG9-STAGE1-TASK1/static/js/main.9c8287b5.js",
+    "static/js/787.1aa80b0a.chunk.js": "/HNG9-STAGE1-TASK1/static/js/787.1aa80b0a.chunk.js",
+    "static/media/myProfile.png": "/HNG9-STAGE1-TASK1/static/media/myProfile.c678ae8224dc09663e46.png",
+    "index.html": "/HNG9-STAGE1-TASK1/index.html",
+    "main.fd839478.css.map": "/HNG9-STAGE1-TASK1/static/css/main.fd839478.css.map",
+    "main.9c8287b5.js.map": "/HNG9-STAGE1-TASK1/static/js/main.9c8287b5.js.map",
+    "787.1aa80b0a.chunk.js.map": "/HNG9-STAGE1-TASK1/static/js/787.1aa80b0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd839478.css",
-    "static/js/main.35fdeda5.js"
+    "static/js/main.9c8287b5.js"
   ]
 }
