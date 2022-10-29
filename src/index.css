@@ -52,7 +52,6 @@ button {
   cursor: pointer;
 }
 
-
 /* ////////////HORIZONTAL LINE /////////// */
 hr {
   margin-top: 50px;
@@ -61,7 +60,6 @@ hr {
   background: #eaecf0;
   margin-bottom: -5px;
 }
-
 
 /* ////////////FOOTER SECTION/////////// */
 #footer {
@@ -88,7 +86,6 @@ hr {
   font-size: 16px;
 }
 
-
 /* ////////////STYLING FOR TABLET SCREEN /////////// */
 @media (max-width: 768px) {
   #footer #zuriImage {
@@ -114,8 +111,6 @@ hr {
   }
 }
 
-
-
 /* ////////////STYLING FOR MOBILE /////////// */
 @media (max-width: 480px) {
   body {
@@ -124,7 +119,7 @@ hr {
 
   #menuCon {
     display: flex;
-    justify-content:right;
+    justify-content: right;
   }
 
   #menuBtn {
@@ -133,11 +128,9 @@ hr {
     cursor: pointer;
   }
 
-
   #shareBtn {
     display: none;
   }
-
 
   h1 {
     font-size: 18px;
@@ -148,6 +141,9 @@ hr {
     font-weight: 500;
   }
 
+  hr {
+    display: none;
+  }
 
   #footer {
     display: none;
@@ -157,7 +153,7 @@ hr {
     display: none;
   }
 
- div #book__design {
+  div #book__design {
     margin-bottom: -30px;
   }
 }
