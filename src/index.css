@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  padding: 30px 70px 0px;
+  padding: 30px 70px 5px;
 }
 
 #profile_img {
@@ -50,6 +50,11 @@ button {
   border-radius: 8px;
   background: #eaecf0;
   cursor: pointer;
+}
+
+sub {
+  font-size: 10px;
+  color: gray;
 }
 
 /* ////////////HORIZONTAL LINE /////////// */
@@ -141,19 +146,32 @@ hr {
     font-weight: 500;
   }
 
-  hr {
-    display: none;
-  }
-
   #footer {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
   }
 
-  #social {
-    display: none;
+  hr {
+    margin-top: 15px;
+  }
+
+  
+  #footer p {
+    max-width: 250px;
+    text-align: left;
+  }
+
+  #footer #zuriImage {
+    margin-top: 1px;
+  }
+
+  #footer #i4gImage {
+    margin-top: 3px;
   }
 
   div #book__design {
     margin-bottom: -30px;
   }
+
 }

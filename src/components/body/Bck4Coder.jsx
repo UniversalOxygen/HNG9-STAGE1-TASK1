@@ -2,8 +2,8 @@ import React from 'react'
 
 const Bck4Coder = () => {
   return (
-    <div id='pitch'>
-      <a href="https://background.zuri.team,"><button>Background Check for Coders</button></a>
+    <div>
+      <a id='pitch' href="https://background.zuri.team"><button>Background Check for Coders  <br></br> <sub>Know more about coders' background</sub></button></a>
     </div>
   )
 }
